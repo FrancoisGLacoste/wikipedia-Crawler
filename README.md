@@ -5,7 +5,7 @@ Uses requests, BeautifulSoup, eventually selenium, with python 2.7
 wikiCrawler: 
 A basic wikipedia Crawler that starts from an initial wikipedia article and recursively builds the set of all wikipedia articles that are accessible for a given maximum depth of recursivity
 
-We print the results both on screen and in a log file. 
+We print the results both on screen and in a file. 
 
 wikiGraphCrawler.py:
 Like wikiCrawler, but it moreover produces a directed graph (in graph theory sense) that links Wikipedia articles regarded as nodes. 
